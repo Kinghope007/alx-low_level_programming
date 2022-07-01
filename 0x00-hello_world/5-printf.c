@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * return: Always 0 (success)
+ * Description: 'task 5 description'
+ * Return: Always 0 (success)
  */
 int main(void)
 {
