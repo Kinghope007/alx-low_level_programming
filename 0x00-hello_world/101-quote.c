@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <unistd.h>
+#include <unstd.h>
 /**
- * main - entry point
- * Description: 'the program description
- * Return: Always 0 (success)
+ * main - Entry point
+ * Description: 'the program's description'
+ * return: Always 1 (Success))
  */
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1)
+	return (1);
 }
