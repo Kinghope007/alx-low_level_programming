@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * Description: 'task 6 description'
- * Return: Always 0 (Success)
+ * Return: 0 if existed properly, non-zero otherwise
  */
 int main(void)
 {
