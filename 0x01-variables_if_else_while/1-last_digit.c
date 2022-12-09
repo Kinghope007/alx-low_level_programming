@@ -4,6 +4,7 @@
 
 /**
  * main - Print a text according to value given
+ *
  * Return: Always (Success)
  */
 int main(void)
