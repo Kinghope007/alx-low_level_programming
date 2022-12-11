@@ -5,11 +5,11 @@
  * followed by a new line.
  * Return: Always (Success)
  */
-char main(void)
+int main(void)
 {
 	char letter;
 
-	for (letter = 'a' letter <= 'z',letter++);
+	for (letter = 'a'; letter <= 'z'; letter++);
 	putchar(letter);
 	
 	putchar("\n");
