@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Print a text according to value given 
+ * main - Print a text according to value give
  * and weather its greater than 5, less or 0
  * Return: Always (Success)
  */
