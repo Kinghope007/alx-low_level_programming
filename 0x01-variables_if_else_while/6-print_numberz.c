@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print numbers 0 - 9
+ * main - Entry point
+ * Print numbers 0 - 9
  * Description: using putchar only
  * return: Always (Success)
  */
