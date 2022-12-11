@@ -4,7 +4,7 @@
  * main - Entry point
  * Print numbers 0 - 9
  * Description: using putchar only
- * return: Always (Success)
+ * Return: Alwys 0
  */
 
 int main(void)
