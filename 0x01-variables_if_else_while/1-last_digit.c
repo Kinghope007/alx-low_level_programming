@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Print a text according to value given and weather its greater than 5, less or 0
+ * main - Print a text according to value given 
+ * and weather its greater than 5, less or 0
  * Return: Always (Success)
  */
 
@@ -22,7 +23,7 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is 0\n", n, (n % 10));
 	}
-	else if ((n %10) < 6 && (n % 10) != 0)
+	else if ((n % 10) < 6 && (n % 10) != 0)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, (n % 10));
 	}
