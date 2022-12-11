@@ -9,7 +9,6 @@
 int main(void)
 {
 	char letter;
-	/*reverse alphabets*/
 	for (letter = 'z'; letter >= 'a'; letter--)
 		putchar(letter);
 	
