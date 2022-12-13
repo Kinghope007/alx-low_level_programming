@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - print every minute starting from 
+ * jack_bauer - print every minute starting from
  * return: 0
  */
 
