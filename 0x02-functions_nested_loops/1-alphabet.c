@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry poiny 
+ * print_alphabet - Entry point
  * Description: function to print a-z
  * Return: 0
  */
