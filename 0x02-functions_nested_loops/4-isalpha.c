@@ -6,7 +6,7 @@
  *  Return: 0
  */
 
-int _isaplha(int c)
+int _isapha(int c)
 {
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
