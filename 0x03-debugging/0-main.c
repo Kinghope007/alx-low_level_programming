@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Test function that prints if
- * Description: if interger is positve or negative
- * Return: 0
+ * main - tests that prints if interger is positive or negative
+ * Return:  0
  */
 
 int main(void)
