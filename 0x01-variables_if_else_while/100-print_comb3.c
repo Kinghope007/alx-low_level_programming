@@ -8,10 +8,12 @@
 
 int main(void)
 {
-	int c; i;
+	int c;
 
 	for (c = '0'; c <= '9'; c++)
 	{
+		int i;
+
 		for (i = '0'; i <= '9'; i++)
 		{
 			if (c < i)
@@ -28,7 +30,7 @@ int main(void)
 		}
 	}
 
-	putchar('\n;);
+	putchar('\n');
 
 	return (0);
 }
