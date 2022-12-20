@@ -23,6 +23,8 @@ void print_to_98(int n)
 	}
 	else if (n >= 98)
 	{
+		int j;
+
 		for (j = n; j >= 98; j--)
 		{
 			if (j != 98)
