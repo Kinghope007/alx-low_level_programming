@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - print sum of all multiples of 3 and 5 up to 1024
+ * main - print sum of all multiples of
+ * 3 and 5 up to 1024
  * @void: empty parameter list for main
- * Description: prints the sum of all multiples of 3 and 5 to 1024
+ * Description: prints the sum of all
+ * multiples of 3 and 5 to 1024
  * Return: return 0
  */
 
