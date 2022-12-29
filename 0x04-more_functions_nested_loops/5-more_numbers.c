@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void more_number(void)
+void more_numbers(void)
 {
 	char n, c;
 	int i = 0;
