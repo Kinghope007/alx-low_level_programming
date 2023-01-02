@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _memset - fill memory with bytes
  * @s: memory to be filled
  * @b: constant bytes
  * @n: number of bytesin memory
- * Return: *s
+ * Return: pointer to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
