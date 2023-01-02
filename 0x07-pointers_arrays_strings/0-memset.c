@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memset - fill memory
- * @s: pointers to char
- * @b: date of change
- * @n: index
+ * _memset - fill memory with bytes
+ * @s: memory to be filled
+ * @b: constant bytes
+ * @n: number of bytesin memory
  * Return: *s
  */
 
@@ -14,7 +14,8 @@ char *_memset(char *s, char b, unsigned int n)
 
 	for (i = 0; i < n; i++)
 	{
-		s[i] = b;
+	       *(s + i)	= b;
 	}
+
 	return (s);
 }
