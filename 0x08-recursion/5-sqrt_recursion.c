@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _sqrt - square root 
+ * _sqrt - square root
  * @n: base number
  * @i: iterator number
  * Return: i
@@ -27,4 +27,4 @@ int _sqrt(int n, int i)
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
-}
+i}
