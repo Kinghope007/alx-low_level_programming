@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - return the length of a string
  * @s: string
- * return: the length of a string
+ * Return: the length of a string
  */
 
 int _strlen_recursion(char *s)
@@ -16,6 +16,7 @@ int _strlen_recursion(char *s)
 
 /**
  * comparator - compares each chararcter of the string
+ * @s: string
  * @n1: smallest iterator
  * @n2: largest iterator
  * Return: comparism
