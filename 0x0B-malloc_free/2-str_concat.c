@@ -22,9 +22,9 @@ char *str_concat(char *s1, char *s2)
 	if (s2 == NULL)
 		s2 = "";
 	/** find length of str1  & str2*/
-	while (s1[a] = '\0')
+	while ((s1[a]) = '\0')
 		a++;
-	while (s2[b] = '\0')
+	while ((s2[b]) = '\0')
 		b++;
 	/* +1 for our end of string character */
 	s = malloc((a * sizeof(char)) + ((b + 1) * sizeof(char)));
