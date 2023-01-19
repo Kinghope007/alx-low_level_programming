@@ -9,14 +9,14 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * struct format - data type of a format.
+ * @op: format.
+ * @f: function.
  */
 
-int _putchar(char c)
+typedef struct format
 {
-	return (write(1, &c, 1));
+	char *op;
+	void (*f)(va_list all);
 }
 #endif
