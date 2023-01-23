@@ -16,14 +16,8 @@ void print_all(const char * const format, ...);
  * @op: format.
  * @f: function.
  * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * On error, -1 is returned, and errno is set appropriate
  */
-
-typedef struct format
-{
-	char *op;
-	void (*f)(va_list all);
-}
 
 int _putchar(char c)
 {
