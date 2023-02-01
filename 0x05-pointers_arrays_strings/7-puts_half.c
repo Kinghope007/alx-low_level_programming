@@ -5,7 +5,7 @@
  * @str: input string
  * Return: no return
  */
-void puts_half(char *str);
+void puts_half(char *str)
 {
 	char first[], second[];
 	int i;
