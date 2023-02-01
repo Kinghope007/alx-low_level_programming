@@ -7,9 +7,8 @@
  * Return: void
  */
 
-void swap_int(int *m, int *n)
+void swap_int(int *a, int *b)
 {
-	int x = *m;
-	*m = *n;
-	*n = x;
+	int *a = &b;
+	int *b = &a;
 }
