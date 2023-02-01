@@ -1,21 +1,20 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * puts2 - print alternating chars of string
- * @str: string
- * Return: void
+ * puts2 - print eve3ry other character of a string
+ * @str: string to be printed
+ * Return: nothing
  */
-
 void puts2(char *str)
 {
 	int i;
+	int length;
 
-	i = 0;
-	while (str[i] != '\0')
+	length = strlen(str);
+	for (i = 0; i < length; i += 2)
 	{
-		if (i % 2 == 0)
-			_putchar(str[i]);
-		i++;
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
