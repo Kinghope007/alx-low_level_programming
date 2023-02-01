@@ -3,20 +3,17 @@
 
 /**
  * print_array - prints n elements of an array of intergers.
- * @a: input array
- * @n: input n elements
- * Return: no Returnm.
+ * @a: arrary of intergers
+ * @n: number of elements of array to be printed
+ * Return: void.
  */
-
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int i;
 
-	for (; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%d", *(a + i));
-		if (i != (n - 1))
-			printf(", ");
+		print("%d, ", a[i]);
 	}
-	printf("\n");
+	printf('\n');
 }
