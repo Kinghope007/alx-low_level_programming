@@ -2,19 +2,20 @@
 
 /**
  * _puts - prints string
- * @abc: string
+ * @str: string
  * Return: void
  */
 
-void _puts(char *abc)
+void _puts(char *str)
 {
 	int i = 0;
 
-	while (abc[i] != '\0')
+	while (str[i] != '\0')
 	{
-		_putchar(abc[i]);
+		_putchar(str[i]);
 		i++;
 	}
-
 	_putchar('\n');
 }
+
+
