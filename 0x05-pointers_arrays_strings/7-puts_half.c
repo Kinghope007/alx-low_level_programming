@@ -5,24 +5,25 @@
  * @str: input string
  * Return: no return
  */
-
-void puts_half(char *str)
+void puts_half(char *str);
 {
-	int count = 0, i;
+	char first[], second[];
+	int i;
+	int length;
+	int mid;
 
-	while (count >= 0)
+	length = strlen(str);
+	if (length % 2 == 1)
 	{
-		if (str[count] == '\0')
-			break;
-		count++;
+		mid = length / 2 + 1;
 	}
-
-	if (count % 2 == 1)
-		i = count / 2;
 	else
-		i = (count - 1) / 2;
-
-	for (i++; i < count; i++)
+	{
+		mid = length / 2;
+	}
+	for (i = mid; i < length; i++)
+	{
 		_putchar(str[i]);
+	}
 	_putchar('\n');
 }
