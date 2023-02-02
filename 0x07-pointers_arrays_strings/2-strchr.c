@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stddef.h>
-#include <string.h>
 
 /**
  * _strchr - locate character in string
@@ -8,7 +6,6 @@
  * @c: character to find
  * Return: the string from character found
  */
-
 char *_strchr(char *s, char c)
 {
 	int a;
