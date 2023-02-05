@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _strlen_recursion - size
@@ -12,7 +13,7 @@ int _strlen_recursion(char *s)
 
 	if (*s)
 	{
-		length = strlen(_strlen_re3cursion(s));
+		length = strlen(_strlen_recursion(s));
 		s++;
 	}
 	return (length);
