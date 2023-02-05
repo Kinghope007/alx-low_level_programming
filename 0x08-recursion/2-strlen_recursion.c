@@ -9,14 +9,12 @@
 
 int _strlen_recursion(char *s)
 {
-	const char length;
+	int length;
 
 	if (*s)
 	{
-		length = strlen(_strlen_recursion(s));
-		s++;
+		length++;
+		length += _strlen_recursion(s + 1);
 	}
 	return (length);
 }
-
-
