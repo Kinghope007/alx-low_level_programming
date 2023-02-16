@@ -10,7 +10,7 @@
  *
  * Return: the new struct dog.
  */
-dog_t *new_dog(char *name, float age, *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i = 0, j = 0, k;
 	dog_t *doge;
@@ -24,7 +24,7 @@ dog_t *new_dog(char *name, float age, *owner)
 	{
 		free(doge->name);
 		free(doge);
-		return (NUL);
+		return (NULL);
 	}
 	for (k = 0; k <= i; k++)
 		doge->name[k] = name[k];
