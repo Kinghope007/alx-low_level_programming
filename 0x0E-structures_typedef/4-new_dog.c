@@ -2,6 +2,38 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/*_strlen - find the length of a string.
+ * @str: the string to be measured.
+ *
+ * Return: the length of the string.
+ */
+int _strlen(char *str)
+{
+	int len = 0;
+
+	while (*str++)
+		len++;
+	return (len);
+}
+
+/**
+ * _strcopy - copies a string pointed to by src, including the
+ * terminating null byte, to a buffer pointer to by dest.
+ * @dest: the buffer storinh the string copy.
+ * @src: the source string.
+ *
+ * Return: the pointer to dest.
+ */
+char *_strcopy(char *dest, char *src)
+{
+	int index = 0;
+
+	for (index = 0; src[index]; index++)
+		dest[index] = src[index];
+	dest[index] = '\0';
+	return (dest);
+}
+
 /**
  * new_dog - new dog
  * @name: name of the dog
