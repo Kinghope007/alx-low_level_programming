@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*_strlen - find the length of a string.
+/**
+ * _strlen - find the length of a string.
  * @str: the string to be measured.
  *
  * Return: the length of the string.
