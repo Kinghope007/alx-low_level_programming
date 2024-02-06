@@ -2,7 +2,7 @@
 #include "search_algos.h"
 
 /**
- * Linear_search - search for a value in an array if intergers
+ * linear_search - search for a value in an array if intergers
  * @array: pointer to the first element of the array to search in
  * @size: Number of elements in the array
  * @value: value to search for
@@ -22,6 +22,5 @@ int linear_search(int *array, size_t size, int value)
 		if (array[i] == value)
 			return i;
 	}
-
 	return (-1);
 }
